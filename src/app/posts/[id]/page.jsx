@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
 
-const getDetailsPost =async()=>{
-    fetch()
+const getDetailsPost = async(id)=>{
+    fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
 }
 const PostDetailsPage = ({ params }) => {
     console.log(params.id);
