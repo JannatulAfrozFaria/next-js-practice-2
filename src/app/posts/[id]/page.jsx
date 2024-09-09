@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const PostDetailsPage = ({ params }) => {
@@ -7,7 +8,9 @@ const PostDetailsPage = ({ params }) => {
             <div className='border-2 border-yellow-800 rounded-lg p-8'>
                 <h1 className='text-3xl text-yellow-600'> Details of <br /> {post.title} </h1>
                 <p>{post.body} </p>
-                <button onClick={'/posts'} className="text-white bg-yellow-700 p-2 rounded-md">Go Back</button>
+                <button className="text-white bg-yellow-700 p-2 rounded-md">
+                    <Link href={'/posts'} >Go Back</Link>
+                </button>
             </div>
         </div>
     );
