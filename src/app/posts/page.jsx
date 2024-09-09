@@ -1,3 +1,4 @@
+import { getPosts } from '@/services/postApi';
 import React from 'react';
 
 // const getPosts = async() =>{
