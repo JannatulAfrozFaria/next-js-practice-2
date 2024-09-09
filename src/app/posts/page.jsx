@@ -14,7 +14,10 @@ const PostPage = async() => {
             <h1>Posts will be Displayed Below</h1>
             <div className="flex">
                 {postsData.map((post)=>
-                <div></div>
+                <div>
+                    <h1> {post.title} </h1>
+                    <p>{post.body} </p>
+                </div>
                 )}
             </div>
         </div>
