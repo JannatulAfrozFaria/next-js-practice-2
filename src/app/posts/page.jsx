@@ -1,7 +1,8 @@
 import React from 'react';
 
 const getPosts = async(req,res,next) =>{
-  const res = await  fetch('https://jsonplaceholder.typicode.com/posts')
+  const res = await  fetch('https://jsonplaceholder.typicode.com/posts');
+  const data =  await res.data();
 }
 const PostPage = () => {
     return (
