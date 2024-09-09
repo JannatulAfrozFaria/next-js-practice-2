@@ -52,14 +52,14 @@ const NavBar = () => {
     if(pathName.includes('dashboard'))
         return (
         <div>
-            <div className='bg-blue-300 p-6'>
+            <div className='bg-yellow-300 p-6'>
                 <ul className="flex gap-4 items-center">
                     {
                         dashboardLinks?.map((link)=>
-                            <Link className={`${pathName === link.path && "text-blue-700 font-semibold" }`}  key={link.path} href={link.path} >{link.title} </Link>
+                            <Link className={`${pathName === link.path && "text-yellow-700 font-semibold" }`}  key={link.path} href={link.path} >{link.title} </Link>
                         )
                     }
-                    <button className="text-white bg-blue-600 p-2 rounded-md"> <Link href={'/'} >Go to Home</Link> </button>
+                    <button className="text-white bg-yellow-600 p-2 rounded-md"> <Link href={'/'} >Go to Home</Link> </button>
                 </ul>
             </div>
             <footer>
