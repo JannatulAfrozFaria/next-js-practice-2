@@ -49,7 +49,7 @@ const NavBar = () => {
                 <h6 className=" text-xl md:text-3xl text-yellow-200"> <span className="text-yellow-800">Next</span> Practice <span className="text-yellow-800">2</span> </h6>
                 <ul className="flex gap-4 justify-between items-center text-yellow-950">
                     {
-                        links?.map((link)=> <Link className={`${pathName === link.path && "text-yellow-200 font-semibold" }`} key={link.path} href={link.path} > {link.title} </Link> )
+                        links?.map((link)=> <Link className={`${pathName === link.path && "text-yellow-700 font-semibold" }`} key={link.path} href={link.path} > {link.title} </Link> )
                     }
                 </ul>
                 <button onClick={handler} className="text-white bg-yellow-700 p-2 rounded-md">Login</button>
