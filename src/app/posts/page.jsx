@@ -12,6 +12,11 @@ const PostPage = async() => {
     return (
         <div className='h-screen'>
             <h1>Posts will be Displayed Below</h1>
+            <div className="flex">
+                {postsData.map((post)=>
+                <div></div>
+                )}
+            </div>
         </div>
     );
 };
