@@ -3,7 +3,7 @@ import React from 'react';
 
 const getDetailsPost = async(id)=>{
     const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
-    const data = res.json();
+    const data = await res.json();
     return data;
 }
 const PostDetailsPage = ({ params }) => {
