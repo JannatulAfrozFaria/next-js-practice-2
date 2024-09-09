@@ -29,9 +29,9 @@ export default function RootLayout({ children }) {
        <div className="h-screen">
             {children}
        </div>
-        {/* <footer>
-          <h1>Here comes the footer</h1>
-        </footer> */}
+       <footer className="items-center justify-center bg-yellow-900 text-white">
+        Footer For Practice 2
+      </footer>
       </body>
     </html>
   );
