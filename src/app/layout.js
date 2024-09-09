@@ -29,9 +29,9 @@ export default function RootLayout({ children }) {
        <div className="h-screen">
             {children}
        </div>
-        <footer>
+        {/* <footer>
           <h1>Here comes the footer</h1>
-        </footer>
+        </footer> */}
       </body>
     </html>
   );

@@ -50,9 +50,9 @@ export default function Home() {
         </div>
       </main> */}
        <h1>Here is the second Practice Project</h1>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center bg-yellow-900">
+      {/* <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center bg-yellow-900 text-white">
         Footer For Practice 2
-      </footer>
+      </footer> */}
     </div>
   );
 }
