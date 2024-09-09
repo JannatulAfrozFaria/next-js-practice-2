@@ -1,5 +1,8 @@
 import React from 'react';
 
+const getPosts = async(req,res,next) =>{
+    
+}
 const PostPage = () => {
     return (
         <div className='h-screen'>
