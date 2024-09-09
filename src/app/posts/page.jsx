@@ -15,10 +15,10 @@ const PostPage = async() => {
             <h1 className='mt-8 p-6 text-4xl text-yellow-800'>Posts will be Displayed Below</h1>
             <div className="grid grid-cols-4 gap-4 mb-8">
                 {postsData?.slice(0,16)?.map((post)=>
-                <div key={post.id} className='border-2 border-yellow-800 rounded-lg p-6'>
+                <div key={post.id} className='border-2 border-yellow-800 rounded-lg p-6 items-stretch'>
                     <h1 className='text-3xl text-yellow-600'> {post.title} </h1>
                     <p>{post.body} </p>
-                    <div>
+                    <div className='items-end'>
                         <button className=" text-white bg-yellow-700 p-2 rounded-md">
                             <Link href={`/posts/${post.id}`} >View Details</Link>
                         </button>
