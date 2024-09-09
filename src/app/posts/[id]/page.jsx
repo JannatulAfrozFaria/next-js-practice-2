@@ -7,7 +7,8 @@ const getDetailsPost = async(id)=>{
     return data;
 }
 const PostDetailsPage = ({ params }) => {
-    console.log(params.id);
+    // console.log(params.id);
+    const postDetails = getDetailsPost(params.id);
     return (
         <div className='w-3/4 mx-auto my-16 text-center'>
             <div className='border-2 border-yellow-800 rounded-lg p-8'>
