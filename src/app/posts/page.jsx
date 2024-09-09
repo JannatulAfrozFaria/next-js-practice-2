@@ -19,7 +19,7 @@ const PostPage = async() => {
                     <h1 className='text-3xl text-yellow-600'> {post.title} </h1>
                     <p>{post.body} </p>
                     <button className="text-white bg-yellow-700 p-2 rounded-md">
-                        <Link>View Details</Link>
+                        <Link href={`/posts/${post.id}`} >View Details</Link>
                     </button>
                 </div>
                 )}
