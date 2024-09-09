@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import React from 'react';
 
+const getDetailsPost =async()=>{
+    fetch()
+}
 const PostDetailsPage = ({ params }) => {
     console.log(params.id);
     return (
@@ -9,7 +12,7 @@ const PostDetailsPage = ({ params }) => {
                 <h1 className='text-3xl text-yellow-600'> Details of <br /> {params.title} </h1>
                 <p>{params.body} </p>
                 <button className=" my-6 text-white bg-yellow-700 p-2 rounded-md">
-                    <Link href={'/posts'} >Go Back</Link>
+                    <Link href={'/posts'}> Go Back</Link>
                 </button>
             </div>
         </div>
