@@ -9,7 +9,7 @@ import React from 'react';
 // }
 const PostPage = async() => {
     const postsData =  await getPosts();
-    console.log(postsData);
+    // console.log(postsData);
     return (
         <div className='w-5/6 mx-auto text-center'>
             <h1 className='mt-8 p-6 text-4xl text-yellow-800'>Posts will be Displayed Below</h1>
