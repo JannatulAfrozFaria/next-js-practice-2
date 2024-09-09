@@ -11,7 +11,7 @@ const PostPage = async() => {
     console.log(postsData);
     return (
         <div className='w-5/6 mx-auto text-center'>
-            <h1>Posts will be Displayed Below</h1>
+            <h1 className='mt-8 p-6 text-4xl text-yellow-800'>Posts will be Displayed Below</h1>
             <div className="grid grid-cols-4 gap-3">
                 {postsData.map((post)=>
                 <div className='border-2 border-yellow-800 p-6'>
