@@ -17,6 +17,7 @@ const PostPage = async() => {
                 <div key={post.id} className='border-2 border-yellow-800 rounded-lg p-6'>
                     <h1 className='text-3xl text-yellow-600'> {post.title} </h1>
                     <p>{post.body} </p>
+                    <button>View Details</button>
                 </div>
                 )}
             </div>
