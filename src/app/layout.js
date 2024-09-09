@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
        <div className="h-screen">
             {children}
        </div>
-       <footer className="items-center justify-center bg-yellow-900 text-white">
+       <footer className=" p-16 items-center justify-center bg-yellow-900 text-white">
           <h1>Footer For Practice 2</h1>
       </footer>
       </body>
