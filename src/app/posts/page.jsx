@@ -10,7 +10,7 @@ const PostPage = async() => {
     const postsData =  await getPosts();
     console.log(postsData);
     return (
-        <div className='h-screen w-5/6 mx-auto text-center'>
+        <div className='w-5/6 mx-auto text-center'>
             <h1>Posts will be Displayed Below</h1>
             <div className="grid grid-cols-4 gap-3">
                 {postsData.map((post)=>
