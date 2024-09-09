@@ -5,7 +5,8 @@ const getPosts = async(req,res,next) =>{
   const data =  await res.data();
   console.log(data);
 }
-const PostPage = () => {
+const PostPage = async() => {
+    const postsData =  await getPosts();
     return (
         <div className='h-screen'>
             <h1>Posts will be Displayed Below</h1>
