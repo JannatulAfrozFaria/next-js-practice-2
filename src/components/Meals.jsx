@@ -5,7 +5,7 @@ const Meals = () => {
     const [search,setSearch] = useState();
     const [meals,setMeals] = useState([]);
     const loadData =  async () =>{
-        const res = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`)
+        const res = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?f=${search}`)
         const data =  res.json();
         setMeals(data.meals);
     }
@@ -23,7 +23,7 @@ const Meals = () => {
                 <button className='btn-basic'>Search </button>
                 <div className='m-8 grid grid-cols-3 gap-4'>
                     {meals?.map((meal)=>(
-                        <div key={meal} className='border-2 rounded-xl p-6'>
+                        <div key={meal.idMeal} className='border-2 rounded-xl p-6'>
                             <h1 className="text-2xl"></h1>
                         </div>
                     ))}
