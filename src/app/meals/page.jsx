@@ -1,6 +1,8 @@
-import React from 'react';
+'use client'
+import React, { useState } from 'react';
 
 const MealsPage = () => {
+    const [search,setSearch] = useState();
     return (
         <div className='my-12 w-5/6 mx-auto text-center'>
             <h1 className='text-basic'>Meals Page</h1>
