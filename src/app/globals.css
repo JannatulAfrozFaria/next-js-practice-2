@@ -7,6 +7,11 @@ color: rgb(143, 102, 5);
 font-size: x-large;
 font-weight: 700;
 }
+.caption-basic{
+    color:rgb(190, 141, 26); 
+    font-weight: 800;
+    font-size: larger;
+}
 .btn-basic{
     color: white;
     background-color: rgb(179, 124, 6);
