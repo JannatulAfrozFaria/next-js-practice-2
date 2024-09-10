@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+.text-basic{
+color: rgb(143, 102, 5);
+font-size: x-large;
+font-weight: 700;
+}
