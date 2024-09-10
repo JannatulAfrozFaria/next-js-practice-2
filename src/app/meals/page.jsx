@@ -1,4 +1,4 @@
-"use client"
+
 import Meals from '@/components/Meals';
 import React, { useState } from 'react';
 

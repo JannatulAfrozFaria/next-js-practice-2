@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Meals = () => {
+    const [search,setSearch] = useState();
     return (
         <div>
             <div>
