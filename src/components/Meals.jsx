@@ -22,7 +22,11 @@ const Meals = () => {
                 <input onChange={handler} className='p-4 outline-none border-transparent text-slate-600' type="text" placeholder='search meals here ...' />
                 <button className='btn-basic'>Search </button>
                 <div className='m-8 grid grid-cols-3 gap-4'>
-                    {meals?.map(())}
+                    {meals?.map(()=>(
+                        <div>
+                            <h1 className="text-2xl"></h1>
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
