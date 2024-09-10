@@ -1,18 +1,21 @@
 "use client"
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Meals = () => {
     const [search,setSearch] = useState();
-    const [meals,setMeals] = useState();
+    const [meals,setMeals] = useState([]);
     const loadData =  async () =>{
         const res = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`)
         const data =  res.json();
-        setMeals(data);
+        setMeals(data.meals);
     }
     const handler = (e) =>{
         setSearch(e.target.value);
         console.log(e.target.value);
     }
+    useEffect(()=>{
+
+    },[])
     return (
         <div>
             <div>
