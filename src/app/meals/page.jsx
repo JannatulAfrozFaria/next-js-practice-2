@@ -7,6 +7,7 @@ const MealsPage = () => {
             <p>Choose meals of your choice by searching...</p>
             <div>
                 <input type="text" placeholder='search meals here ...' />
+                <button></button>
             </div>
         </div>
     );
