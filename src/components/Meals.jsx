@@ -23,7 +23,7 @@ const Meals = () => {
                 <button className='btn-basic'>Search </button>
                 <div className='m-8 grid grid-cols-3 gap-4'>
                     {meals?.map(()=>(
-                        <div>
+                        <div className='border-2 rounded-xl p-6'>
                             <h1 className="text-2xl"></h1>
                         </div>
                     ))}
