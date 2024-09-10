@@ -13,6 +13,9 @@ const Meals = () => {
         setSearch(e.target.value);
         console.log(e.target.value);
     }
+    if(meals?.length === 0){
+        return <h1>No Data Found.</h1>
+    }
     useEffect(()=>{
         loadData();
     },[search])
