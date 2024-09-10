@@ -37,6 +37,9 @@ const Meals = () => {
                             <p><span className='caption-basic'>Instructions : </span> {meal.strInstructions} </p>
                         </div>
                     ))}
+                    {
+                        error && <h6>No Data Found Regarding Your Search!</h6>
+                    }
                 </div>
             </div>
         </div>
