@@ -25,7 +25,7 @@ const Meals = () => {
                     {meals?.map((meal)=>(
                         <div key={meal.idMeal} className='border-2 rounded-xl p-6'>
                             <h1 className="text-2xl">{meal.strMeal} </h1>
-                            <p><span>Category : </span> {meal.strCategory} </p>
+                            <p><span className='caption-basic'>Category : </span> {meal.strCategory} </p>
                         </div>
                     ))}
                 </div>
