@@ -37,6 +37,8 @@ const Meals = () => {
                             <Image src={meal.strMealThumb}></Image>
                             <h1 className="text-2xl">{meal.strMeal} </h1>
                             <p><span className='caption-basic'>Category : </span> {meal.strCategory} </p>
+                            <p><span className='caption-basic'>Tags : </span> {meal.strTags} </p>
+                            <p><span className='caption-basic'>Cuisine : </span> {meal.strArea} </p>
                             <p><span className='caption-basic'>Instructions : </span> {meal.strInstructions} </p>
                         </div>
                     ))}
