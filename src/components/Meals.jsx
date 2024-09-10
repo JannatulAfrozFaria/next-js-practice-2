@@ -14,7 +14,7 @@ const Meals = () => {
         console.log(e.target.value);
     }
     useEffect(()=>{
-
+        loadData();
     },[search])
     return (
         <div>
