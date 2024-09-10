@@ -4,7 +4,8 @@ import React, { useState } from 'react';
 const Meals = () => {
     const [search,setSearch] = useState();
     const handler = (e) =>{
-        
+        setSearch(e.target.value);
+        console.log(e.target.value);
     }
     return (
         <div>
