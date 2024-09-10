@@ -15,7 +15,7 @@ const Meals = () => {
     }
     useEffect(()=>{
 
-    },[])
+    },[search])
     return (
         <div>
             <div>
