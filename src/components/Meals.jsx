@@ -4,13 +4,14 @@ import React, { useEffect, useState } from 'react';
 const Meals = () => {
     const [search, setSearch] = useState();
     const [meals, setMeals] = useState([]);
+    const [error, setError] = useState('');
     const loadData = async () => {
         try {
             const res = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?f=${search}`)
             const data = res.json();
             setMeals(data.meals);
         } catch (error) {
-            console.log(error);
+            setError('No Data Found')
         }
     }
     const handler = (e) => {
