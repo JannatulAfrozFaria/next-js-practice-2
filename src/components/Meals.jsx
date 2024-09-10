@@ -10,6 +10,7 @@ const Meals = () => {
             const res = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?f=${search}`)
             const data = res.json();
             setMeals(data.meals);
+            setError('')
         } catch (error) {
             setError('No Data Found')
         }
