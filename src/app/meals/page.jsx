@@ -1,5 +1,4 @@
 import Meals from '@/components/Meals';
-import React, { useState } from 'react';
 
 const MealsPage = () => {
     
