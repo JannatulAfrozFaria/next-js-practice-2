@@ -7,7 +7,7 @@ const Meals = () => {
     const loadData =  async () =>{
         const res = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`)
         const data =  res.json();
-        return data;
+        setMeals(data);
     }
     const handler = (e) =>{
         setSearch(e.target.value);
