@@ -34,7 +34,7 @@ const Meals = () => {
                 <div className='m-8 grid grid-cols-3 gap-4'>
                     {meals?.length > 0 && !error && meals?.map((meal) => (
                         <div key={meal.idMeal} className='border-2 rounded-xl p-6'>
-                            <Image src={meal.strMealThumb} alt={meal.strMeal} ></Image>
+                            <Image src={meal.strMealThumb} alt={meal.strMeal} width={500} height={500} ></Image>
                             <h1 className="text-2xl">{meal.strMeal} </h1>
                             <p><span className='caption-basic'>Category : </span> {meal.strCategory} </p>
                             <p><span className='caption-basic'>Tags : </span> {meal.strTags} </p>
