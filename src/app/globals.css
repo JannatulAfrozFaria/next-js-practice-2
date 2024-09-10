@@ -7,3 +7,10 @@ color: rgb(143, 102, 5);
 font-size: x-large;
 font-weight: 700;
 }
+.btn-basic{
+    color: white;
+    background-color: rgb(179, 124, 6);
+    padding: 3%;
+    border: 1px solid transparent;
+    border-radius: 5%;
+}

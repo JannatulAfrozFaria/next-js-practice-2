@@ -7,7 +7,7 @@ const MealsPage = () => {
             <p className='py-6'>Choose meals of your choice by searching...</p>
             <div>
                 <input type="text" placeholder='search meals here ...' />
-                <button className=''>Search </button>
+                <button className='btn-basic'>Search </button>
             </div>
         </div>
     );
