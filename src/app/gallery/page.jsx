@@ -5,7 +5,7 @@ const page = () => {
     return (
         <div>
             <h1 className='text-3xl'>Gallery Page</h1>
-            <div className=''>
+            <div className='grid grid-cols-3 gap-6'>
                 {
                     [1, 2, 3, 4, 5]?.map((img) => (
                         <div key={img} className="card bg-base-100 w-96 shadow-xl">
