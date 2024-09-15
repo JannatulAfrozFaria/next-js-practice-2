@@ -8,7 +8,7 @@ export const metadata = {
   };
 const page = () => {
     return (
-        <div>
+        <div className='max-h-screen'>
             <h1 className={`${headland.className} text-3xl`}>This is our Details Page</h1>
         </div>
     );
