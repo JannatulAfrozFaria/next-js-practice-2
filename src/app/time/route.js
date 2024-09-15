@@ -1,5 +1,5 @@
 export async function GET(){
     return Response.json({
-        curre
+        currentTime: new Date().toLocaleDateString()
     })
 }
