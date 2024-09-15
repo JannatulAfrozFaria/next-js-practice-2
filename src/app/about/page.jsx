@@ -1,9 +1,7 @@
 import React from 'react';
 export const metadata = {
-    title: {
-        absolute: 
-    },
-    description: "Meals Page",
+    title: "About",
+    description: "About Page",
     keywords: ["about","about page"]
   };
 const page = () => {
