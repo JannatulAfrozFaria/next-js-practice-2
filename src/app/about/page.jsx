@@ -1,4 +1,5 @@
 import React from 'react';
+import { Headland_One } from 'next/font/google';
 export const metadata = {
     title: "About",
     description: "About Page",
