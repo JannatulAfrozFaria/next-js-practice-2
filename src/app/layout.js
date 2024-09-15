@@ -2,7 +2,9 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Link from "next/link";
 import NavBar from "@/components/NavBar";
+import {Roboto} from "next/font/google"
 
+const inter = Roboto({weight: ['400','500','800'],subsets:["greek"]});
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
