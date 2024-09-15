@@ -9,7 +9,7 @@ export const metadata = {
 const page = () => {
     return (
         <div>
-            <h1 className="text-3xl">This is our Details Page</h1>
+            <h1 className={`${headland.className} text-3xl`}>This is our Details Page</h1>
         </div>
     );
 };
