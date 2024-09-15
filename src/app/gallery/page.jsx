@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
 export const metadata = {
-    title: "About",
-    description: "About Page",
+    title: "Gallery",
+    description: "Gallery",
     keywords: ["about","about page"]
   };
 const page = () => {
