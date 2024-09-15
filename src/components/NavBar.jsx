@@ -15,6 +15,10 @@ const NavBar = () => {
             title: "Posts",
             path: '/posts'
         },
+        {
+            title: "Gallery",
+            path: '/gallery'
+        },
     ]
     const dashboardLinks = [
         {

@@ -31,7 +31,7 @@ const Meals = () => {
             <div>
                 <input onChange={handler} className='p-4 outline-none border-transparent text-slate-600' type="text" placeholder='search meals here ...' />
                 <button onClick={() => loadData()} className='btn-basic'>Search </button>
-                <div className='m-8 grid grid-cols-3 gap-4'>
+                <div className='m-8 grid grid-cols-2 md:grid-cols-3 gap-4'>
                     {meals?.length > 0 && !error && meals?.map((meal) => (
                         <div key={meal.idMeal} className='border-2 rounded-xl p-6'>
                             <Image src={meal.strMealThumb} alt={meal.strMeal} width={500} height={500} ></Image>
