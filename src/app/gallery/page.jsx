@@ -8,7 +8,7 @@ const page = () => {
             <div className='grid grid-cols-3 gap-6'>
                 {
                     [1, 2, 3, 4, 5]?.map((img,index) => (
-                        <div key={img} className="card bg-base-100 w-96 shadow-xl">
+                        <div key={img} className="card bg-yellow-100 w-96 shadow-xl">
                             <div className="card-body">
                                 <h2 className="card-title">Image Optimization ${index + 1}</h2>
                             </div>
