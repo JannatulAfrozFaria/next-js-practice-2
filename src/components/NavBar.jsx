@@ -23,6 +23,10 @@ const NavBar = () => {
             title: "Gallery",
             path: '/gallery'
         },
+        {
+            title: "Time",
+            path: '/time'
+        },
     ]
     const dashboardLinks = [
         {

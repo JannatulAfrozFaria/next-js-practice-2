@@ -1,5 +1,8 @@
+//dynamic data show korar khetre: 
+// export const dynamic = 'force-dynamic'; 
+
 export async function GET(){
     return Response.json({
-        currentTime: new Date().toLocaleDateString()
+        currentTime: new Date().toLocaleTimeString()
     })
 }
